@@ -75,19 +75,17 @@ export const STEPS: { icon: StepIcon; title: string; description: string }[] = [
   { icon: "card", title: "Receba sua CNH", description: "Você recebe sua CNH renovada na Europa." },
 ];
 
-// PLACEHOLDER: fotos recortadas da referência. Substitua por fotos reais de clientes
-// (com autorização de uso) e adicione quantas quiser — o carrossel se ajusta sozinho.
-const CLIENT_PHOTOS = [
-  { src: "/images/clientes/cliente-01.webp", alt: "Cliente da Global segurando a CNH renovada em Lisboa" },
-  { src: "/images/clientes/cliente-02.webp", alt: "Cliente da Global com a CNH renovada em frente à Ponte 25 de Abril" },
-  { src: "/images/clientes/cliente-03.webp", alt: "Cliente da Global com a CNH renovada na Torre de Belém" },
-  { src: "/images/clientes/cliente-04.webp", alt: "CNH renovada pela Global à beira do Tejo" },
-  { src: "/images/clientes/cliente-05.webp", alt: "Cliente da Global com a CNH renovada no Arco da Rua Augusta" },
+// Prints reais do grupo de clientes no WhatsApp. Telefones, sobrenomes, fotos de perfil e
+// dados das CNHs foram borrados (LGPD). Ao adicionar novos prints, borre esses dados antes.
+// Proporção dos prints: 923 × ~1712 px (o carrossel se ajusta à quantidade).
+export const GALLERY = [
+  { src: "/images/registros/registro-01.webp", alt: "Print do WhatsApp: cliente conta que a CNH já foi atualizada, categoria AB" },
+  { src: "/images/registros/registro-02.webp", alt: "Print do WhatsApp: cliente agradece por ter recebido a carteira" },
+  { src: "/images/registros/registro-03.webp", alt: "Print do WhatsApp: cliente mostra a CNH renovada e agradece o excelente trabalho" },
+  { src: "/images/registros/registro-04.webp", alt: "Print do WhatsApp: cliente mostra a CNH renovada e recomenda o serviço" },
+  { src: "/images/registros/registro-05.webp", alt: "Print do WhatsApp: cliente conta que a CNH digital saiu em 35 dias" },
+  { src: "/images/registros/registro-06.webp", alt: "Print do WhatsApp: cliente agradece por renovar a CNH dela e a do marido sem voltar ao Brasil" },
 ];
-
-// PLACEHOLDER: repetição temporária para preencher 3 páginas no carrossel (como na referência).
-// Quando houver fotos suficientes, troque por: export const GALLERY = CLIENT_PHOTOS;
-export const GALLERY = [...CLIENT_PHOTOS, ...CLIENT_PHOTOS, ...CLIENT_PHOTOS];
 
 // Depoimentos de exemplo da referência — substitua por depoimentos reais de clientes.
 export const TESTIMONIALS = [

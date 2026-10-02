@@ -51,8 +51,11 @@ Só a imagem `public/images/lisboa-bandeira.webp` é original. As demais foram r
 - `public/images/hero-pessoa.webp`: pessoa do Hero (de preferência com fundo transparente)
 - `public/images/about-global.webp`: composição com o globo
 - `public/images/logo-emblema.webp`: emblema do logo (de preferência em SVG)
-- `public/images/clientes/cliente-01..05.webp`: fotos de clientes
 - `public/images/depoimentos/*.webp`: avatares dos depoimentos
+
+## Prints de clientes (LGPD)
+
+Os prints em `public/images/registros/` vêm do grupo de clientes no WhatsApp. Telefones, sobrenomes, fotos de perfil e os dados das CNHs (rosto, filiação, números e assinatura) foram borrados. Antes de adicionar um print novo, borre esses dados e cadastre o arquivo em `GALLERY`, no `src/data/content.ts`.
 
 ## Publicar
 
