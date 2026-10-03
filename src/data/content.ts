@@ -134,6 +134,6 @@ export const FAQ_ITEMS = [
   {
     question: "Vocês atendem outros países da Europa?",
     answer:
-      "Sim. Somos sediados em Portugal e atendemos brasileiros que vivem em toda a Europa.",
+      "Sim, atendemos toda a Europa.",
   },
 ];
