@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Cinzel, Montserrat } from "next/font/google";
 import "./globals.css";
+import { MetaPixel } from "@/components/MetaPixel";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -23,7 +24,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="pt-BR" className={`${montserrat.variable} ${cinzel.variable} antialiased`}>
-      <body>{children}</body>
+      <body>
+        {children}
+        <MetaPixel />
+      </body>
     </html>
   );
 }
