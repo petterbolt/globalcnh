@@ -44,10 +44,10 @@ export function About() {
           </h2>
 
           <p className="mt-4 text-[16px] leading-[1.7] text-[#2a2f36] sm:text-[17px] lg:mt-[clamp(12px,1.2vw,18px)] lg:text-[clamp(17px,1.62vw,23.3px)] lg:leading-[1.36]">
-            A Global é uma empresa sediada em Portugal,
-            <br className="hidden sm:block" /> especializada em assessoria para renovação da CNH
-            <br className="hidden sm:block" /> brasileira, oferecendo um processo prático, seguro e
-            <br className="hidden sm:block" /> totalmente acompanhado por uma equipe experiente.
+            A Global é uma empresa especializada em assessoria
+            <br className="hidden sm:block" /> para renovação da CNH brasileira, oferecendo um
+            <br className="hidden sm:block" /> processo prático, seguro e totalmente acompanhado
+            <br className="hidden sm:block" /> por uma equipe experiente.
           </p>
 
           <WhatsAppButton
