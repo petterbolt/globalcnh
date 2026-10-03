@@ -46,9 +46,8 @@ public/images/    imagens
 
 ## Imagens provisórias
 
-Só a imagem `public/images/lisboa-bandeira.webp` é original. As demais foram recortadas da imagem de referência e estão em baixa resolução. Para trocar uma imagem, substitua o arquivo mantendo o mesmo nome:
+As imagens `public/images/hero-global.webp` e `public/images/lisboa-bandeira.webp` são originais. As demais foram recortadas da imagem de referência e estão em baixa resolução. Para trocar uma imagem, substitua o arquivo mantendo o mesmo nome:
 
-- `public/images/hero-pessoa.webp`: pessoa do Hero (de preferência com fundo transparente)
 - `public/images/about-global.webp`: composição com o globo
 - `public/images/logo-emblema.webp`: emblema do logo (de preferência em SVG)
 - `public/images/depoimentos/*.webp`: avatares dos depoimentos

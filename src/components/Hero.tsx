@@ -9,15 +9,16 @@ export function Hero() {
       id="inicio"
       className="relative isolate overflow-hidden bg-navy-950 lg:h-[clamp(680px,59.8vw,900px)]"
     >
-      {/* Fundo: Lisboa + bandeira (asset fornecido) */}
-      <div className="absolute inset-0 -z-20 lg:inset-auto lg:top-[-3.6%] lg:right-0 lg:aspect-[1672/941] lg:h-[114%]">
+      {/* Fundo: Lisboa + bandeira + brasileira com a CNH (asset fornecido).
+          Desktop: altura do Hero, ancorado à direita (mulher fora da coluna de texto). */}
+      <div className="absolute inset-0 -z-20 lg:inset-auto lg:inset-y-0 lg:right-[-10.6vw] lg:aspect-[1851/849]">
         <Image
-          src={IMAGES.lisboa}
-          alt=""
+          src={IMAGES.hero}
+          alt="Brasileira sorrindo e segurando sua CNH renovada em Lisboa, com a bandeira de Portugal"
           fill
           priority
-          sizes="(min-width: 1024px) 120vw, 100vw"
-          className="object-cover object-[72%_center] lg:object-center"
+          sizes="(min-width: 1024px) 131vw, 100vw"
+          className="object-cover object-[28%_center] lg:object-center"
         />
       </div>
 
@@ -30,18 +31,6 @@ export function Hero() {
         aria-hidden="true"
         className="absolute inset-x-0 top-0 -z-10 hidden h-[22%] bg-[linear-gradient(180deg,rgba(0,18,32,0.55),transparent)] lg:block"
       />
-
-      {/* Pessoa (desktop: à direita, colada na base) */}
-      <div className="hero-person-mask pointer-events-none absolute right-0 bottom-0 hidden aspect-[990/894] w-[47.6vw] max-w-[940px] lg:block">
-        <Image
-          src={IMAGES.heroPessoa}
-          alt="Brasileira sorrindo e segurando sua CNH renovada em Lisboa"
-          fill
-          priority
-          sizes="48vw"
-          className="object-cover object-bottom"
-        />
-      </div>
 
       <div className="container-lp relative pt-[112px] lg:pt-[clamp(118px,11vw,160px)]">
         <div className="max-w-[640px] lg:max-w-[min(52vw,760px)]">
@@ -89,13 +78,13 @@ export function Hero() {
 
       {/* Pessoa (mobile/tablet: abaixo do texto, sem cobrir conteúdo) */}
       <div className="relative mt-6 lg:hidden">
-        <div className="hero-person-mask relative ml-auto aspect-[990/894] w-[92%] max-w-[560px] md:max-w-[620px]">
+        <div className="hero-person-mask relative ml-auto aspect-[10/9] w-[92%] max-w-[560px] md:max-w-[620px]">
           <Image
-            src={IMAGES.heroPessoa}
-            alt="Brasileira sorrindo e segurando sua CNH renovada em Lisboa"
+            src={IMAGES.hero}
+            alt=""
             fill
-            sizes="(min-width: 640px) 560px, 92vw"
-            className="object-cover"
+            sizes="(min-width: 640px) 620px, 92vw"
+            className="object-cover object-[90%_50%]"
           />
         </div>
       </div>

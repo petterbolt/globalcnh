@@ -13,10 +13,10 @@ export const NAV_LINKS = [
 ] as const;
 
 export const IMAGES = {
-  // Asset fornecido: Lisboa + bandeira portuguesa (fundo do Hero e do CTA final).
+  // Fundo do Hero: Lisboa + bandeira + brasileira segurando a CNH (asset fornecido).
+  hero: "/images/hero-global.webp",
+  // Asset fornecido: Lisboa + bandeira portuguesa (fundo do CTA final).
   lisboa: "/images/lisboa-bandeira.webp",
-  // PLACEHOLDER: pessoa do Hero segurando a CNH (idealmente PNG/WebP com fundo transparente).
-  heroPessoa: "/images/hero-pessoa.webp",
   // PLACEHOLDER: composição globo + bandeiras + arquitetura portuguesa.
   about: "/images/about-global.webp",
   // PLACEHOLDER: emblema do logo (idealmente SVG).
