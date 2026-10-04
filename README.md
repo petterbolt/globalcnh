@@ -27,7 +27,7 @@ npm start
 | O quê | Arquivo |
 |---|---|
 | Link, número e mensagem do WhatsApp (todos os botões usam este arquivo) | `src/lib/whatsapp.ts` |
-| Textos, benefícios, etapas, depoimentos, FAQ e imagens | `src/data/content.ts` |
+| Textos, benefícios, etapas, prints de clientes, FAQ e imagens | `src/data/content.ts` |
 | Cores e fontes | `src/app/globals.css` e `src/app/layout.tsx` |
 | Seções da página | `src/components/` |
 
@@ -37,7 +37,7 @@ npm start
 src/
   app/            layout, página e estilos globais
   components/     Header, Hero, About, Services, HowItWorks,
-                  ClientGallery, Testimonials, FAQ, FinalCTA,
+                  ClientGallery, FAQ, FinalCTA,
                   WhatsAppButton e componentes auxiliares
   data/           conteúdo da página
   lib/            configuração do WhatsApp
@@ -50,7 +50,6 @@ As imagens `public/images/hero-global.webp` e `public/images/lisboa-bandeira.web
 
 - `public/images/about-global.webp`: composição com o globo
 - `public/images/logo-emblema.webp`: emblema do logo (de preferência em SVG)
-- `public/images/depoimentos/*.webp`: avatares dos depoimentos
 
 ## Prints de clientes (LGPD)
 

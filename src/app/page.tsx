@@ -4,7 +4,6 @@ import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { HowItWorks } from "@/components/HowItWorks";
 import { ClientGallery } from "@/components/ClientGallery";
-import { Testimonials } from "@/components/Testimonials";
 import { FAQ } from "@/components/FAQ";
 import { FinalCTA } from "@/components/FinalCTA";
 
@@ -18,7 +17,6 @@ export default function Home() {
         <Services />
         <HowItWorks />
         <ClientGallery />
-        <Testimonials />
         <FAQ />
       </main>
       <FinalCTA />

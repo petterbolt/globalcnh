@@ -53,8 +53,9 @@ export function ClientGallery() {
 
   return (
     <section
+      id="depoimentos"
       aria-labelledby="galeria-titulo"
-      className="bg-[linear-gradient(180deg,#f3f6fa_0%,#e8eef6_100%)] py-14 lg:pt-[clamp(26px,2.6vw,38px)] lg:pb-[clamp(10px,0.9vw,14px)]"
+      className="bg-[linear-gradient(180deg,#f3f6fa_0%,#e8eef6_100%)] py-14 lg:pt-[clamp(26px,2.6vw,38px)] lg:pb-[clamp(20px,2vw,30px)]"
     >
       <div className="container-lp text-center">
         <h2
@@ -100,14 +101,12 @@ export function ClientGallery() {
         </ul>
 
         <CarouselArrow
-          variant="circle"
-          direction="prev"
+                    direction="prev"
           onClick={() => goTo(page - 1)}
           className="absolute top-1/2 left-1 -translate-y-1/2 lg:left-[clamp(10px,1.4vw,20px)]"
         />
         <CarouselArrow
-          variant="circle"
-          direction="next"
+                    direction="next"
           onClick={() => goTo(page + 1)}
           className="absolute top-1/2 right-1 -translate-y-1/2 lg:right-[clamp(10px,1.4vw,20px)]"
         />

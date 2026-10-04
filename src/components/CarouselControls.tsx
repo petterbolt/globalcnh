@@ -3,24 +3,19 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 type ArrowProps = {
   direction: "prev" | "next";
   onClick: () => void;
-  variant: "circle" | "plain";
   className?: string;
 };
 
-export function CarouselArrow({ direction, onClick, variant, className = "" }: ArrowProps) {
+export function CarouselArrow({ direction, onClick, className = "" }: ArrowProps) {
   const Icon = direction === "prev" ? ChevronLeft : ChevronRight;
-  const styles =
-    variant === "circle"
-      ? "size-[clamp(40px,3.75vw,54px)] rounded-full bg-white text-ink shadow-[0_6px_20px_-6px_rgba(0,0,0,0.35)] hover:scale-105"
-      : "size-10 text-gold hover:text-gold-light";
   return (
     <button
       type="button"
       onClick={onClick}
       aria-label={direction === "prev" ? "Anterior" : "Próximo"}
-      className={`grid place-items-center transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${styles} ${className}`}
+      className={`grid size-[clamp(40px,3.75vw,54px)] place-items-center rounded-full bg-white text-ink shadow-[0_6px_20px_-6px_rgba(0,0,0,0.35)] transition hover:scale-105 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold ${className}`}
     >
-      <Icon className={variant === "circle" ? "size-[45%]" : "size-7"} strokeWidth={variant === "circle" ? 3 : 2.4} />
+      <Icon className="size-[45%]" strokeWidth={3} />
     </button>
   );
 }

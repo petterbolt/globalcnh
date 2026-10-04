@@ -87,28 +87,6 @@ export const GALLERY = [
   { src: "/images/registros/registro-06.webp", alt: "Print do WhatsApp: cliente agradece por renovar a CNH dela e a do marido sem voltar ao Brasil" },
 ];
 
-// Depoimentos de exemplo da referência — substitua por depoimentos reais de clientes.
-export const TESTIMONIALS = [
-  {
-    quote: "Processo muito prático e rápido. Recomendo!",
-    name: "Juliana M.",
-    location: "Lisboa, Portugal",
-    avatar: "/images/depoimentos/juliana.webp", // PLACEHOLDER
-  },
-  {
-    quote: "Não precisei voltar ao Brasil. Excelente atendimento!",
-    name: "Rafael S.",
-    location: "Porto, Portugal",
-    avatar: "/images/depoimentos/rafael.webp", // PLACEHOLDER
-  },
-  {
-    quote: "Equipe atenciosa e profissional. Resolveu tudo sem dor de cabeça.",
-    name: "Camila A.",
-    location: "Braga, Portugal",
-    avatar: "/images/depoimentos/camila.webp", // PLACEHOLDER
-  },
-];
-
 // TODO: revisar as respostas com a equipe Global antes de publicar.
 export const FAQ_ITEMS = [
   {
